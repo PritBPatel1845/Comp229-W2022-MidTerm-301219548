@@ -1,0 +1,49 @@
+<!-- Filename: details.ejs
+Studentname: Prit patel
+Studentid: 301219548 -->
+
+<% include ../partials/header.ejs %>
+
+    <!-- MAIN CONTENT -->
+    <body style="background-color:rgb(182, 230, 176);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <h1><%= title %></h1>
+            <form class="form" method="post" action="<%= action %><%= movies._id %>">
+              <div class="form-group">
+                <label for="NameTextField">Title</label>
+                <input type="text" class="form-control" id="NameTextField"
+                placeholder="movie Name" name="title" value="<%= movies.Title %>" required>
+              </div>
+              <div class="form-group">
+                <label for="DescriptionTextField">Synopsis</label>
+                <input type="text" class="form-control" id="NameTextField"
+                placeholder="Movie Description" name="description" value="<%= movies.Description %>"  required>
+              </div>
+              <div class="form-group">
+                <label for="PriceTextField">Year</label>
+                <input type="text" class="form-control" id="PriceTextField"
+                placeholder="publish year" name="price" value="<%= movies.Price %>"  required>
+              </div>
+              <div class="form-group">
+                <label for="AuthorTextField">Director</label>
+                <input type="text" class="form-control" id="AuthorTextField"
+                placeholder="Movie Director" name="author" value="<%= movies.Author %>"  required>
+              </div>
+
+              <div class="form-group">
+                <label for="GenreTextField">Genre</label>
+                <input type="text" class="form-control" id="GenreTextField"
+                placeholder="movie Genre" name="genre" value="<%= movies.Genre %>"  required>
+              </div>
+              
+              <button type="submit" class="btn btn-primary"><i class="fa fa-check-square-o"></i> Submit</button>
+              <a href="/movies" class="btn btn-warning"><i class="fa fa-undo"></i> Cancel</a>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+<% include ../partials/footer.ejs %>
