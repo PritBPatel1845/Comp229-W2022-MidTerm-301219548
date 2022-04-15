@@ -1,4 +1,4 @@
-{"books": [
+{"movies": [
     {"Title":"The Fellowship of the Ring","Description":"Sauron, the Dark Lord, has gathered to him all the Rings of Power – the means by which he intends to rule Middle-earth. All he lacks in his plans for dominion is the One Ring – the ring that rules them all – which has fallen into the hands of the hobbit, Bilbo Baggins.","Price":10.3,"Author":"J. R. R. Tolkien","Genre":"Fantasy"},
     {"Title":"The Two Towers","Description":"Frodo and the Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. ","Price":9.64,"Author":"J. R. R. Tolkien","Genre":"Fantasy"},
     {"Title":"The Return of the King","Description":"The armies of the Dark Lord Sauron are massing as his evil shadow spreads even wider. Men, Dwarves, Elves and Ents unite forces to do battle against the Dark.","Price":9.76,"Author":"J. R. R. Tolkien","Genre":"Fantasy"},
